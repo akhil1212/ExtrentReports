@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 75.0.3770.100,,2019-07-02 16:09:54,2019-07-02 16:10:50,55.851s,FAILED
+,,,,,,
+Test Cases/TC_FundamentalRefregrantMgmt,Chrome 75.0.3770.100,,2019-07-02 16:09:55,2019-07-02 16:10:48,53.817s,FAILED
+runWithCucumberRunner(testRunner.FundamentalRefTestRunner),Chrome 75.0.3770.100,,2019-07-02 16:09:55,2019-07-02 16:10:48,53.056s,FAILED

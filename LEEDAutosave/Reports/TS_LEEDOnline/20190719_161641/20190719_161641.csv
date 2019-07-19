@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_LEEDOnline,,,2019-07-19 16:17:23,2019-07-19 16:18:43,1m - 20.636s,FAILED
+,,,,,,
+Test Cases/TC_Login,,,2019-07-19 16:17:52,2019-07-19 16:18:39,46.877s,FAILED
+runWithCucumberRunner(common.LoginRunner),,,2019-07-19 16:17:53,2019-07-19 16:18:38,45.870s,FAILED

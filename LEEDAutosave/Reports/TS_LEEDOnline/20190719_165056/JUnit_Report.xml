@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LEEDOnline" time="61" tests="1" failures="0" errors="0">
+   <testsuite name="TS_LEEDOnline" tests="1" failures="0" errors="0" time="61" timestamp="2019-07-19 16:51:12" hostname="Group10 - Group10-PC" id="Test Suites/TS_LEEDOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\LEEDAutosave\\Reports\\TS_LEEDOnline\\20190719_165056"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\LEEDAutosave\\Reports\\TS_LEEDOnline\\20190719_165056\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - Group10-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.1.17"/>
+         <property name="sessionId" value="0a8f785b1a386f57597b62c721ef0e3c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-07-19 16:51:14 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-07-19 16:51:15 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-07-19 16:51:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-19 16:51:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-19 16:51:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-19 16:51:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-19 16:51:58 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-19 16:52:01 - [MESSAGE][PASSED] - Text 'automationbdd6@gmail.com' is set on object ''
+
+2019-07-19 16:52:02 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-07-19 16:52:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-19 16:52:05 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-19 16:52:06 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-19 16:52:10 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-19 16:52:10 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-07-19 16:52:10 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-19 16:51:12 - [TEST_SUITE][PASSED] - TS_LEEDOnline: Test Cases/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

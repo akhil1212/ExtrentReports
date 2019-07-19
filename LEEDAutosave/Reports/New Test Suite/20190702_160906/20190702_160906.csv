@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 75.0.3770.100,,2019-07-02 16:09:10,2019-07-02 16:09:29,18.943s,FAILED
+,,,,,,
+Test Cases/TC_EnergyEfficiencyBestManagementPractices,Chrome 75.0.3770.100,,2019-07-02 16:09:10,2019-07-02 16:09:27,17.095s,FAILED
+runWithCucumberRunner(testRunner.EnergyEfficiencyBestManagementPractices),Chrome 75.0.3770.100,,2019-07-02 16:09:11,2019-07-02 16:09:27,16.244s,FAILED
