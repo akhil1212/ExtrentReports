@@ -97,10 +97,10 @@ class FundamentalRefregrantMgmt {
 			WebUI.click(projectName)
 			logger = extent.startTest("Naviagate to project");
 			browserName = new LeedOnlineKeywords().getBrowserName()
-			logger.assignCategory("Naviagate to project"+" - "+browserName);
+			logger.assignCategory("Navigate to project"+" - "+browserName);
 			Assert.assertTrue(true);
 			browserName = new LeedOnlineKeywords().getBrowserName()
-			logger.log(LogStatus.PASS, "User clicks on project",browserName);
+			logger.log(LogStatus.PASS, "User clicks on project "+project,browserName);
 		}catch(Exception e){
 			logger.log(LogStatus.FAIL, "User clicks on project failed");
 
@@ -185,7 +185,7 @@ class FundamentalRefregrantMgmt {
 			logger.assignCategory(formName+" - "+browserName);
 			Assert.assertTrue(true);
 			browserName = new LeedOnlineKeywords().getBrowserName()
-			logger.log(LogStatus.PASS, "User should be on form (.*)",browserName);
+			logger.log(LogStatus.PASS, "User should be on form " +formName,browserName);
 		}catch(Exception e){
 			logger.log(LogStatus.FAIL, "User should be on form failed");
 
@@ -448,9 +448,9 @@ class FundamentalRefregrantMgmt {
 		try{
 			new LeedOnlineKeywords().enter_TableData(table, data, isAddRow)
 			browserName = new LeedOnlineKeywords().getBrowserName()
-			logger.log(LogStatus.PASS, "User fills the table (.*) with data (.*) isAddRow (.*)",browserName);
+			logger.log(LogStatus.PASS, "User fills the table "+table+"with table data "+data,browserName);
 		}catch(Exception e){
-			logger.log(LogStatus.FAIL, "User fills the table (.*) with data (.*) isAddRow (.*) is failed");
+			logger.log(LogStatus.FAIL, "User fills the table "+table+"with table data "+data+" is failed");
 			//new LeedOnlineKeywords().delete_uploaded_files(i)
 			new LeedOnlineKeywords ().takeScreenshot(logger)
 		}

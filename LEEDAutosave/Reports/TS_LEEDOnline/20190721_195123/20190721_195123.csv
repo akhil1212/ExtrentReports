@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_LEEDOnline,Chrome 75.0.3770.100,,2019-07-21 19:51:38,2019-07-21 20:07:46,16m - 7.436s,FAILED
+,,,,,,
+Test Cases/TC_SiteManagement,Chrome 75.0.3770.100,,2019-07-21 19:51:47,2019-07-21 19:59:30,7m - 42.890s,FAILED
+runWithCucumberRunner(testRunner.SiteManagementTestRunner),Chrome 75.0.3770.100,,2019-07-21 19:51:48,2019-07-21 19:59:30,7m - 42.373s,FAILED
+,,,,,,
+Test Cases/TC_PurchasingPolicy,Chrome 75.0.3770.100,,2019-07-21 19:59:30,2019-07-21 20:07:39,8m - 8.855s,FAILED
+runWithCucumberRunner(testRunner.PurchasingPolicyTestRunner),Chrome 75.0.3770.100,,2019-07-21 19:59:31,2019-07-21 20:07:39,8m - 8.200s,FAILED

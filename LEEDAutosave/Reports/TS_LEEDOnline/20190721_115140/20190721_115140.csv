@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_LEEDOnline,Chrome 75.0.3770.100,,2019-07-21 11:51:54,2019-07-21 11:59:56,8m - 2.701s,FAILED
+,,,,,,
+Test Cases/TC_MinimumIndoorAirQuality,Chrome 75.0.3770.100,,2019-07-21 11:51:56,2019-07-21 11:59:54,7m - 57.699s,FAILED
+runWithCucumberRunner(testRunner.MinimumIndoorAirQualityTestRunner),Chrome 75.0.3770.100,,2019-07-21 11:51:57,2019-07-21 11:59:54,7m - 57.229s,FAILED

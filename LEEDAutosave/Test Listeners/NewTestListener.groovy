@@ -87,7 +87,6 @@ class NewTestListener {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_hhmmss_a");
 		String TestReport ="Test Report" + dateFormat.format(date).toString()
 		println"***************************"+ TestReport
-		String a=34;
 		// commonE.extent=new ExtentReports (System.getProperty("user.dir") +'\\ExtentReports\\testreport1.html', true);
 		
 		 commonReport.extent=new ExtentReports (System.getProperty("user.dir") +'\\ExtentReports\\'+TestReport+'.html', true)

@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LEEDOnline" time="541" tests="0" failures="1" errors="0">
+   <testsuite name="TS_LEEDOnline" tests="0" failures="1" errors="0" time="541" timestamp="2019-07-21 16:58:48" hostname="promantus inc - G10PROLT025" id="Test Suites/TS_LEEDOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git_personal\\ExtrentReports\\LEEDAutosave\\Reports\\TS_LEEDOnline\\20190721_165844"/>
+         <property name="logFiles" value="H:\\Git_personal\\ExtrentReports\\LEEDAutosave\\Reports\\TS_LEEDOnline\\20190721_165844\\execution0.log"/>
+         <property name="attachments" value="H:\\Git_personal\\ExtrentReports\\LEEDAutosave//screenshots//Sun_Jul_21_17_04_35_IST_2019.png"/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="f9f1c0f9041815b0032f017a0f382909"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_EnergyEfficiencyBestManagementPractices" classname="Test Cases/TC_EnergyEfficiencyBestManagementPractices" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: COO_1.pdf does not exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.isFiledownloaded(LeedOnlineKeywords.groovy:542)
+	at projectKeywords.LeedOnlineKeywords$isFiledownloaded$9.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.download_the_uploaded_files(LeedOnlineKeywords.groovy:650)
+	at projectKeywords.LeedOnlineKeywords$download_the_uploaded_files$6.call(Unknown Source)
+	at FundamentalRefregrantMgmt.user_downloads_the_uploaded_files(FundamentalRefregrantMgmt.groovy:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-21 16:58:49 - [TEST_CASE][FAILED] - Test Cases/TC_EnergyEfficiencyBestManagementPractices: Test Cases/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: COO_1.pdf does not exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.isFiledownloaded(LeedOnlineKeywords.groovy:542)
+	at projectKeywords.LeedOnlineKeywords$isFiledownloaded$9.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.download_the_uploaded_files(LeedOnlineKeywords.groovy:650)
+	at projectKeywords.LeedOnlineKeywords$download_the_uploaded_files$6.call(Unknown Source)
+	at FundamentalRefregrantMgmt.user_downloads_the_uploaded_files(FundamentalRefregrantMgmt.groovy:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)
+
+
+2019-07-21 16:58:49 - [TEST_STEP][FAILED] - runWithCucumberRunner(testRunner.EnergyEfficiencyBestManagementPractices): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)
+)
+
+2019-07-21 16:58:51 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-07-21 16:58:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-07-21 16:58:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-21 16:58:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-21 16:58:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-21 16:58:56 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-21 16:59:06 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-21 16:59:06 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-07-21 16:59:06 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-07-21 16:59:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 16:59:09 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-21 16:59:09 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 16:59:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-21 16:59:14 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-07-21 16:59:14 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-07-21 16:59:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-07-21 16:59:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 16:59:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 16:59:28 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-07-21 16:59:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 16:59:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 16:59:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 16:59:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 16:59:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 16:59:47 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 16:59:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 16:59:54 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-07-21 16:59:54 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 17:00:01 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 17:00:01 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-07-21 17:00:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:00:04 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 17:00:11 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 17:00:11 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-07-21 17:00:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@class='tiny ui button'])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-21 17:00:32 - [MESSAGE][WARNING] - Object '' is not present
+
+2019-07-21 17:00:39 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 17:00:59 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-07-21 17:01:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:01:04 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 17:01:11 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 17:01:11 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-07-21 17:01:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@class='tiny ui button'])[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-21 17:01:32 - [MESSAGE][WARNING] - Object '' is not present
+
+2019-07-21 17:01:39 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 17:01:39 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-07-21 17:01:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:02:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@class='tiny ui button'])[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-21 17:02:02 - [MESSAGE][WARNING] - Object '' is not present
+
+2019-07-21 17:02:09 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 17:02:09 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-07-21 17:02:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@class='tiny ui button'])[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-07-21 17:02:30 - [MESSAGE][WARNING] - Object '' is not present
+
+2019-07-21 17:02:37 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 17:03:04 - [MESSAGE][PASSED] - File 'H:\Git_personal\ExtrentReports\LEEDAutosave\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-07-21 17:03:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:03:09 - [MESSAGE][PASSED] - Text 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)SBSNR' is set on object ''
+
+2019-07-21 17:03:09 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 17:03:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:03:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:03:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:03:17 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-07-21 17:03:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:03:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:03:27 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 17:03:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:03:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:03:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:03:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:03:36 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 17:03:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:03:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:03:46 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 17:03:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:03:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:03:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:03:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-21 17:03:56 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-21 17:03:56 - [MESSAGE][PASSED] - 
+
+2019-07-21 17:03:56 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-07-21 17:03:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-21 17:04:01 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-21 17:04:01 - [MESSAGE][PASSED] - 
+
+2019-07-21 17:04:01 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-21 17:04:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:04:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:04:11 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 17:04:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:04:16 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 17:04:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:04:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:04:25 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 17:04:25 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 17:04:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:04:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-21 17:04:35 - [MESSAGE][FAILED] - COO_1.pdf does not exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles
+
+2019-07-21 17:04:35 - [MESSAGE][FAILED] - Unable to verify match between actual text 'ZZ.pdf' and expected text 'COO_1.pdf' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'ZZ.pdf' and expected text 'COO_1.pdf' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at projectKeywords.LeedOnlineKeywords.download_the_uploaded_files(LeedOnlineKeywords.groovy:651)
+	at projectKeywords.LeedOnlineKeywords$download_the_uploaded_files$6.call(Unknown Source)
+	at FundamentalRefregrantMgmt.user_downloads_the_uploaded_files(FundamentalRefregrantMgmt.groovy:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)
+)
+
+2019-07-21 17:04:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\Git_personal\\ExtrentReports\\LEEDAutosave//screenshots//Sun_Jul_21_17_04_35_IST_2019.png]]
+
+2019-07-21 17:04:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:04:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:04:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:04:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:04:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:04:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:04:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:04:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:05:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:05:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:05:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:05:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:05:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:05:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:05:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:05:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:06:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:06:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:06:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:06:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:06:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:06:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:06:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:06:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:06:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:06:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-21 17:06:32 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-21 17:06:38 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-07-21 17:06:39 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-21 17:06:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 17:06:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:06:42 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-07-21 17:06:42 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-07-21 17:06:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-21 17:06:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-21 17:06:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-21 17:06:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-21 17:06:54 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-21 17:06:54 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-07-21 17:06:55 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-07-21 17:06:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:06:58 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-21 17:06:58 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 17:07:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-21 17:07:02 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-07-21 17:07:02 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-07-21 17:07:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-07-21 17:07:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:07:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:07:14 - [MESSAGE][PASSED] - Text of object '' is: 'READY FOR REVIEW'
+
+2019-07-21 17:07:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:07:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:07:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:07:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:07:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:07:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 17:07:32 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 17:07:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:07:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 17:07:32 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 17:07:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 17:07:37 - [MESSAGE][PASSED] - Text 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)4MQ62' is set on object ''
+
+2019-07-21 17:07:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-21 17:07:47 - [MESSAGE][PASSED] - Object '' is present
+
+2019-07-21 17:07:48 - [MESSAGE][PASSED] - Text of object '' is: 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)4MQ62'
+
+2019-07-21 17:07:48 - [MESSAGE][FAILED] - These following reason:
+ [Cannot invoke method log() on null object]
+
+2019-07-21 17:07:48 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)
+)]]></system-out>
+         <system-err><![CDATA[2019-07-21 16:58:49 - [TEST_CASE][FAILED] - Test Cases/TC_EnergyEfficiencyBestManagementPractices: Test Cases/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: COO_1.pdf does not exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.isFiledownloaded(LeedOnlineKeywords.groovy:542)
+	at projectKeywords.LeedOnlineKeywords$isFiledownloaded$9.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.download_the_uploaded_files(LeedOnlineKeywords.groovy:650)
+	at projectKeywords.LeedOnlineKeywords$download_the_uploaded_files$6.call(Unknown Source)
+	at FundamentalRefregrantMgmt.user_downloads_the_uploaded_files(FundamentalRefregrantMgmt.groovy:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-21 16:58:48 - [TEST_SUITE][FAILED] - TS_LEEDOnline: Test Cases/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: COO_1.pdf does not exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.isFiledownloaded(LeedOnlineKeywords.groovy:542)
+	at projectKeywords.LeedOnlineKeywords$isFiledownloaded$9.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.download_the_uploaded_files(LeedOnlineKeywords.groovy:650)
+	at projectKeywords.LeedOnlineKeywords$download_the_uploaded_files$6.call(Unknown Source)
+	at FundamentalRefregrantMgmt.user_downloads_the_uploaded_files(FundamentalRefregrantMgmt.groovy:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-21 16:58:48 - [TEST_SUITE][FAILED] - TS_LEEDOnline: Test Cases/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: COO_1.pdf does not exist in H:/Git_personal/ExtrentReports/LEEDAutosave/Include/TestData/DownloadedFiles
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.isFiledownloaded(LeedOnlineKeywords.groovy:542)
+	at projectKeywords.LeedOnlineKeywords$isFiledownloaded$9.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.download_the_uploaded_files(LeedOnlineKeywords.groovy:650)
+	at projectKeywords.LeedOnlineKeywords$download_the_uploaded_files$6.call(Unknown Source)
+	at FundamentalRefregrantMgmt.user_downloads_the_uploaded_files(FundamentalRefregrantMgmt.groovy:497)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563708524147.run(TempTestSuite1563708524147.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

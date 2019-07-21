@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LEEDOnline,Chrome 75.0.3770.142,,,2019-07-21 16:58:48,2019-07-21 17:07:49,9m - 1.089s,FAILED
+,,,,,,,
+Test Cases/TC_EnergyEfficiencyBestManagementPractices,Chrome 75.0.3770.142,,,2019-07-21 16:58:49,2019-07-21 17:07:48,8m - 58.500s,FAILED
+runWithCucumberRunner(testRunner.EnergyEfficiencyBestManagementPractices),Chrome 75.0.3770.142,,,2019-07-21 16:58:49,2019-07-21 17:07:48,8m - 58.213s,FAILED

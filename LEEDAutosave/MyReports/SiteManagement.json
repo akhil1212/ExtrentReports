@@ -1,0 +1,428 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 27,
+        "name": "Filling Project Information form",
+        "description": "",
+        "id": "entering-data-to-site-management-form---leed-v4.1-o+m:-eb;filling-project-information-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50007934698,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2323735328,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22792994564,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be on form Site Management rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 46
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2341739119,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Enters data to Narrative field",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_enters_data_to_Narrative_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63108546635,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User uploads files to Add file button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_uploads_files_to_Add_file_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162528083816,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User downloads the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_downloads_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72592342777,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4301830010,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6195065681,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4663206625,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks the Complete icon to set status to Ready for Review",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_the_Complete_icon_to_set_status_to_Ready_for_Review()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Checking Auto Save functionality in Site Management form",
+        "description": "",
+        "id": "entering-data-to-site-management-form---leed-v4.1-o+m:-eb;checking-auto-save-functionality-in-site-management-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42550552296,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10451019382,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9231411516,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should be on form Site Management rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 46
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method log() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat AutoSaveStepDef.user_enters_data_to_Narrative_field(AutoSaveStepDef.groovy:206)\r\n\tat ✽.User Enters data to Narrative field to check auto save on form Site Management rating O+M:EB(Include/features/ScoreCard/SiteManagement.feature:34)\r\n",
+              "duration": 4691439710,
+              "status": "failed"
+            },
+            "line": 34,
+            "name": "User Enters data to Narrative field to check auto save on form Site Management rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 86
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User uploads files to Add file button to check auto save on form Site Management rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 65
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 88
+                }
+              ],
+              "location": "AutoSaveStepDef.user_uploads_files_to_Add_file_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User verifies form not saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_form_not_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User Enters data to Narrative field to check auto save on form Site Management rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 86
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "User verifies warning message of form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_warning_message_of_form_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User checks form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_checks_autosave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User clears the draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_clears_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User Enters data to Narrative field after clear draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field_after_clear_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User verifies the revision icon present after saving the form",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_revision_icon_present_after_saving_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User dowloads the form as pdf",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_PDF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User verifies the narrative",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_narraive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User deletes the downloaded pdf file",
+            "match": {
+              "location": "AutoSaveStepDef.user_deletes_the_downloaded_files()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Entering data to Site Management form - LEED v4.1 O+M: EB",
+    "description": "",
+    "id": "entering-data-to-site-management-form---leed-v4.1-o+m:-eb",
+    "keyword": "Feature",
+    "uri": "Include/features/ScoreCard/SiteManagement.feature",
+    "tags": []
+  }
+]

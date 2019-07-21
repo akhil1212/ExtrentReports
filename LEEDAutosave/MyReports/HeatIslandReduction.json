@@ -1,0 +1,578 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Filling Heat Island Reduction form for Contributing nonroof measures",
+        "description": "",
+        "id": "entering-data-to-heat-island-reduction---leed-v4.1-o+m:-eb;filling-heat-island-reduction-form-for-contributing-nonroof-measures;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 115157894291,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2992128668,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49882376724,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be on form Heat Island Reduction rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heat Island Reduction",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 52
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38904613602,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User uploads files to Add file button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_uploads_files_to_Add_file_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36788586101,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User fills the table Table: Contributing nonroof measures with data TD_Contributing nonroof measures isAddRow No",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Table: Contributing nonroof measures",
+                  "offset": 21
+                },
+                {
+                  "val": "TD_Contributing nonroof measures",
+                  "offset": 68
+                },
+                {
+                  "val": "No",
+                  "offset": 110
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_fills_the_table(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18581676162,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User fills the table Table: Contributing high-reflectance roof with data TD_Contributing high-reflectance roof isAddRow Yes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Table: Contributing high-reflectance roof",
+                  "offset": 21
+                },
+                {
+                  "val": "TD_Contributing high-reflectance roof",
+                  "offset": 73
+                },
+                {
+                  "val": "Yes",
+                  "offset": 120
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_fills_the_table(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14940189217,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User fills the table Table: Parking with data TD_Parking isAddRow No",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Table: Parking",
+                  "offset": 21
+                },
+                {
+                  "val": "TD_Parking",
+                  "offset": 46
+                },
+                {
+                  "val": "No",
+                  "offset": 66
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_fills_the_table(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9860398667,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User fills the table Table: Summary of nonroof and roof with data TD_Summary of nonroof and roof isAddRow No",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Table: Summary of nonroof and roof",
+                  "offset": 21
+                },
+                {
+                  "val": "TD_Summary of nonroof and roof",
+                  "offset": 66
+                },
+                {
+                  "val": "No",
+                  "offset": 106
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_fills_the_table(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89473914920,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Enters data to Narrative field",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_enters_data_to_Narrative_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11887511229,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters data to text box with number",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_enters_data_to_text_box_with_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159205808,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User checks the checkbox option",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_checks_the_checkbox_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144198230011,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User downloads the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_downloads_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37018738758,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9710843374,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7395635805,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46134739930,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks the Complete icon to set status to Ready for Review",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_the_Complete_icon_to_set_status_to_Ready_for_Review()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Checking Auto Save functionality in Heat Island Reduction form for Contributing nonroof measures",
+        "description": "",
+        "id": "entering-data-to-heat-island-reduction---leed-v4.1-o+m:-eb;checking-auto-save-functionality-in-heat-island-reduction-form-for-contributing-nonroof-measures;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 116973229709,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2439820395,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23425468681,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should be on form Heat Island Reduction rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heat Island Reduction",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 52
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method log() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat AutoSaveStepDef.user_enters_data_to_Narrative_field(AutoSaveStepDef.groovy:206)\r\n\tat ✽.User Enters data to Narrative field to check auto save on form Heat Island Reduction rating O+M:EB(Include/features/ScoreCard/HeatIslandReduction.feature:40)\r\n",
+              "duration": 55704898486,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "User Enters data to Narrative field to check auto save on form Heat Island Reduction rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heat Island Reduction",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 92
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User uploads files to Add file button to check auto save on form Heat Island Reduction rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heat Island Reduction",
+                  "offset": 65
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 94
+                }
+              ],
+              "location": "AutoSaveStepDef.user_uploads_files_to_Add_file_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User verifies form not saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_form_not_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User Enters data to Narrative field to check auto save on form Heat Island Reduction rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heat Island Reduction",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 92
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User verifies warning message of form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_warning_message_of_form_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User checks form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_checks_autosave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User clears the draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_clears_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User Enters data to Narrative field after clear draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field_after_clear_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "User verifies the revision icon present after saving the form",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_revision_icon_present_after_saving_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "User dowloads the form as pdf",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_PDF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "User verifies the tables",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_tables()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "User verifies text with pdf",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_text_with_pdf()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "User verifies the narrative",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_narraive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "User deletes the downloaded pdf file",
+            "match": {
+              "location": "AutoSaveStepDef.user_deletes_the_downloaded_files()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Entering data to Heat Island Reduction - LEED v4.1 O+M: EB",
+    "description": "",
+    "id": "entering-data-to-heat-island-reduction---leed-v4.1-o+m:-eb",
+    "keyword": "Feature",
+    "uri": "Include/features/ScoreCard/HeatIslandReduction.feature",
+    "tags": []
+  }
+]

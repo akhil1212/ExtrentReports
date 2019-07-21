@@ -98,7 +98,8 @@ class LoginStepDefinition {
 			WebUI.maximizeWindow()
 
 			RemoteWebDriver driver = DriverFactory.getWebDriver()
-			//String DownloadPath = "C:/Users/Group10/Desktop/LEEDAutosave/Include/TestData/DownloadedFiles"
+			//String DownloadPath = "C:\\Users\\Group10\\Desktop\\LEEDAutosave\\Include\\TestData\\DownloadedFiles"
+			//	String DownloadPath = "/home/promantusinc/Documents/NewGitRepo/Usgbc_LeedOnline/LEEDAutosave/Include/TestData/DownloadedFiles"
 			String DownloadPath = "/var/lib/jenkins/workspace/ExtentReportCheck/LEEDAutosave/Include/TestData/DownloadedFiles"
 			
 			new	LeedOnlineKeywords().sendCommandForDownloadChromeHeadLess((HttpCommandExecutor)driver.getCommandExecutor(),driver.getSessionId(), DownloadPath )

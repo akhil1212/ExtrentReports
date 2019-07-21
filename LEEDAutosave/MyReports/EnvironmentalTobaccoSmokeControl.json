@@ -1,0 +1,939 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 29,
+        "name": "Filling Environmental Tobacco Smoke Control for NoSmoking",
+        "description": "",
+        "id": "entering-data-to-environmental-tobacco-smoke-control-form---leed-v4.1-o+m:-eb;filling-environmental-tobacco-smoke-control-for-nosmoking;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 124654825234,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12694770042,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55535947561,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be on form Environmental Tobacco Smoke Control-NoSmoking rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-NoSmoking",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 76
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5739152766,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User checks the checkbox option",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_checks_the_checkbox_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 727341085,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User will select the Radio Button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_will_select_the_Radio_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75906034450,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User uploads files to Add file button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_uploads_files_to_Add_file_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18456632262,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Enters data to Narrative field",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_enters_data_to_Narrative_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 807634328715,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User downloads the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_downloads_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99622335410,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5169784513,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6521277674,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18699628768,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks the Complete icon to set status to Ready for Review",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_the_Complete_icon_to_set_status_to_Ready_for_Review()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Filling Environmental Tobacco Smoke Control for CompartmentalizationSmokeAreas",
+        "description": "",
+        "id": "entering-data-to-environmental-tobacco-smoke-control-form---leed-v4.1-o+m:-eb;filling-environmental-tobacco-smoke-control-for-compartmentalizationsmokeareas;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151353931002,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32900417106,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119183705599,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should be on form Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 97
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9756524673,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User checks the checkbox option",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_checks_the_checkbox_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8657443359,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User will select the Radio Button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_will_select_the_Radio_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 229652228084,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User uploads files to Add file button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_uploads_files_to_Add_file_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273175092161,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Enters data to Narrative field",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_enters_data_to_Narrative_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 968482783610,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User downloads the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_downloads_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309503751366,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4418165420,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6258946226,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9108854545,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User clicks the Complete icon to set status to Ready for Review",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_the_Complete_icon_to_set_status_to_Ready_for_Review()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 75,
+        "name": "Checking Auto Save functionality in Environmental Tobacco Smoke Control-NoSmoking form for Economic Analysis",
+        "description": "",
+        "id": "entering-data-to-environmental-tobacco-smoke-control-form---leed-v4.1-o+m:-eb;checking-auto-save-functionality-in-environmental-tobacco-smoke-control-nosmoking-form-for-economic-analysis;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 176652222729,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7560347839,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67929449417,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User should be on form Environmental Tobacco Smoke Control-NoSmoking rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-NoSmoking",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 76
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17739967611,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User checks the checkbox option",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_checks_the_checkbox_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7471573468,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User will select the Radio Button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_will_select_the_Radio_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method log() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat AutoSaveStepDef.user_enters_data_to_Narrative_field(AutoSaveStepDef.groovy:206)\r\n\tat ✽.User Enters data to Narrative field to check auto save on form Environmental Tobacco Smoke Control-NoSmoking rating O+M:EB(Include/features/ScoreCard/EnvironmentalTobaccoSmokeControl.feature:57)\r\n",
+              "duration": 96681476823,
+              "status": "failed"
+            },
+            "line": 57,
+            "name": "User Enters data to Narrative field to check auto save on form Environmental Tobacco Smoke Control-NoSmoking rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-NoSmoking",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 116
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "User uploads files to Add file button to check auto save on form Environmental Tobacco Smoke Control-NoSmoking rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-NoSmoking",
+                  "offset": 65
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 118
+                }
+              ],
+              "location": "AutoSaveStepDef.user_uploads_files_to_Add_file_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "User verifies form not saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_form_not_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "User Enters data to Narrative field to check auto save on form Environmental Tobacco Smoke Control-NoSmoking rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-NoSmoking",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 116
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "User verifies warning message of form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_warning_message_of_form_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "User checks form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_checks_autosave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "User clears the draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_clears_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "User Enters data to Narrative field after clear draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field_after_clear_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "User verifies the revision icon present after saving the form",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_revision_icon_present_after_saving_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "User dowloads the form as pdf",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_PDF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "User verifies the narrative",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_narraive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "User deletes the downloaded pdf file",
+            "match": {
+              "location": "AutoSaveStepDef.user_deletes_the_downloaded_files()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 102,
+        "name": "Checking Auto Save functionality in Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas form for Economic Analysis",
+        "description": "",
+        "id": "entering-data-to-environmental-tobacco-smoke-control-form---leed-v4.1-o+m:-eb;checking-auto-save-functionality-in-environmental-tobacco-smoke-control-compartmentalizationsmokeareas-form-for-economic-analysis;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 178886421943,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User clicks on project BDD6 TestProject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BDD6 TestProject",
+                  "offset": 23
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3592533325,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35721644755,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "User should be on form Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas",
+                  "offset": 23
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 97
+                }
+              ],
+              "location": "FundamentalRefregrantMgmt.user_should_be_on_FRM_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22562774971,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User checks the checkbox option",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_checks_the_checkbox_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6860360736,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User will select the Radio Button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_will_select_the_Radio_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method log() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat AutoSaveStepDef.user_enters_data_to_Narrative_field(AutoSaveStepDef.groovy:206)\r\n\tat ✽.User Enters data to Narrative field to check auto save on form Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas rating O+M:EB(Include/features/ScoreCard/EnvironmentalTobaccoSmokeControl.feature:84)\r\n",
+              "duration": 35931445475,
+              "status": "failed"
+            },
+            "line": 84,
+            "name": "User Enters data to Narrative field to check auto save on form Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 137
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "User uploads files to Add file button to check auto save on form Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas",
+                  "offset": 65
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 139
+                }
+              ],
+              "location": "AutoSaveStepDef.user_uploads_files_to_Add_file_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "User verifies form not saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_form_not_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 87,
+            "name": "User Enters data to Narrative field to check auto save on form Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Environmental Tobacco Smoke Control-CompartmentalizationSmokeAreas",
+                  "offset": 63
+                },
+                {
+                  "val": "O+M:EB",
+                  "offset": 137
+                }
+              ],
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "User verifies warning message of form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_warning_message_of_form_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "User checks form saved as draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_checks_autosave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "User deletes the uploaded files",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "User clears the draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_clears_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "User Enters data to Narrative field after clear draft",
+            "match": {
+              "location": "AutoSaveStepDef.user_enters_data_to_Narrative_field_after_clear_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "FundamentalRefregrantMgmt.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "User verifies the revision icon present after saving the form",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_revision_icon_present_after_saving_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "User dowloads the form as pdf",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_PDF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 97,
+            "name": "User verifies the narrative",
+            "match": {
+              "location": "AutoSaveStepDef.user_verifies_the_narraive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 98,
+            "name": "User deletes the downloaded pdf file",
+            "match": {
+              "location": "AutoSaveStepDef.user_deletes_the_downloaded_files()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Entering data to Environmental Tobacco Smoke Control form - LEED v4.1 O+M: EB",
+    "description": "",
+    "id": "entering-data-to-environmental-tobacco-smoke-control-form---leed-v4.1-o+m:-eb",
+    "keyword": "Feature",
+    "uri": "Include/features/ScoreCard/EnvironmentalTobaccoSmokeControl.feature",
+    "tags": []
+  }
+]

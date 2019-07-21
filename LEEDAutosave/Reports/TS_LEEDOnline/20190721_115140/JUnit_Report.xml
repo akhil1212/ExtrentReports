@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LEEDOnline" time="482" tests="0" failures="1" errors="0">
+   <testsuite name="TS_LEEDOnline" tests="0" failures="1" errors="0" time="482" timestamp="2019-07-21 11:51:54" hostname="Group10 - 192.168.1.7" id="Test Suites/TS_LEEDOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Group10\\Desktop\\LEEDAutosave\\Reports\\TS_LEEDOnline\\20190721_115140"/>
+         <property name="logFiles" value="C:\\Users\\Group10\\Desktop\\LEEDAutosave\\Reports\\TS_LEEDOnline\\20190721_115140\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Group10 - 192.168.1.7"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="becfac177c81895a2cc179e5cfe61a33"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC_MinimumIndoorAirQuality" classname="Test Cases/TC_MinimumIndoorAirQuality" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_MinimumIndoorAirQuality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-21 11:51:56 - [TEST_CASE][FAILED] - Test Cases/TC_MinimumIndoorAirQuality: Test Cases/TC_MinimumIndoorAirQuality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)
+
+
+2019-07-21 11:51:57 - [TEST_STEP][FAILED] - runWithCucumberRunner(testRunner.MinimumIndoorAirQualityTestRunner): runWithCucumberRunner(testRunner.MinimumIndoorAirQualityTestRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)
+
+
+2019-07-21 11:52:00 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-07-21 11:52:01 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-07-21 11:52:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-21 11:52:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-21 11:52:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-21 11:52:19 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-21 11:52:29 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-21 11:52:31 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-07-21 11:52:32 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-07-21 11:52:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:52:36 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-21 11:52:36 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 11:52:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-21 11:52:41 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-07-21 11:52:41 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-07-21 11:52:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-07-21 11:52:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:52:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:53:02 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-07-21 11:53:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:53:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:53:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:53:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:53:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:53:24 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 11:53:31 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 11:53:32 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\LEEDAutosave\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-07-21 11:53:32 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 11:53:39 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 11:53:39 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\LEEDAutosave\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-07-21 11:53:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:53:47 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 11:53:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 11:53:54 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\LEEDAutosave\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-07-21 11:53:58 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-07-21 11:54:05 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-07-21 11:54:05 - [MESSAGE][PASSED] - File 'C:\Users\Group10\Desktop\LEEDAutosave\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-07-21 11:54:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:54:11 - [MESSAGE][PASSED] - Text 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)U44V7' is set on object ''
+
+2019-07-21 11:54:12 - [MESSAGE][PASSED] - Text 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)7NPPR' is set on object ''
+
+2019-07-21 11:54:13 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 11:54:13 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 11:54:13 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 11:54:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:54:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:54:21 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 11:54:22 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:54:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:54:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:54:32 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-07-21 11:54:32 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:54:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:54:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:54:41 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 11:54:41 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:54:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:54:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:54:50 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-07-21 11:54:50 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:54:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:54:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:55:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:55:00 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 11:55:00 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:55:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:55:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-21 11:55:10 - [MESSAGE][PASSED] - COO_1.pdf exist in C:/Users/Group10/Desktop/LEEDAutosave/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-21 11:55:10 - [MESSAGE][PASSED] - 
+
+2019-07-21 11:55:10 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-07-21 11:55:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-21 11:55:15 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Group10/Desktop/LEEDAutosave/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-21 11:55:15 - [MESSAGE][PASSED] - 
+
+2019-07-21 11:55:15 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-21 11:55:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:55:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:55:25 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 11:55:25 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:55:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:55:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:55:34 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-07-21 11:55:34 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:55:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:55:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:55:43 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 11:55:44 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:55:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:55:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:55:53 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-07-21 11:55:54 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:55:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:55:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:56:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:56:03 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-07-21 11:56:03 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-07-21 11:56:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:56:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-21 11:56:13 - [MESSAGE][PASSED] - COO_1.pdf exist in C:/Users/Group10/Desktop/LEEDAutosave/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-21 11:56:13 - [MESSAGE][PASSED] - 
+
+2019-07-21 11:56:13 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-07-21 11:56:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-07-21 11:56:18 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Group10/Desktop/LEEDAutosave/Include/TestData/DownloadedFiles and was deleted
+
+2019-07-21 11:56:18 - [MESSAGE][PASSED] - 
+
+2019-07-21 11:56:18 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-07-21 11:56:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:56:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:56:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:56:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:56:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:56:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:56:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:56:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:56:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:56:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:56:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:57:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:57:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:57:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:57:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:57:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:57:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:57:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:57:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:58:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:58:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:58:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:58:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-21 11:58:09 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-07-21 11:58:15 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-07-21 11:58:18 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-07-21 11:58:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-07-21 11:58:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:58:20 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-07-21 11:58:20 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-07-21 11:58:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-07-21 11:58:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-21 11:58:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-21 11:58:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-21 11:58:59 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-07-21 11:59:00 - [MESSAGE][PASSED] - Text 'automationbdd7@gmail.com' is set on object ''
+
+2019-07-21 11:59:01 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-07-21 11:59:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:59:04 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-07-21 11:59:04 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-07-21 11:59:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-07-21 11:59:08 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-07-21 11:59:08 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-07-21 11:59:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-07-21 11:59:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:59:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:59:20 - [MESSAGE][PASSED] - Text of object '' is: 'READY FOR REVIEW'
+
+2019-07-21 11:59:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:59:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:59:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:59:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:59:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-07-21 11:59:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-07-21 11:59:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-21 11:59:41 - [MESSAGE][PASSED] - Text 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)JFSST' is set on object ''
+
+2019-07-21 11:59:43 - [MESSAGE][PASSED] - Text 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)I2OXV' is set on object ''
+
+2019-07-21 11:59:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-21 11:59:53 - [MESSAGE][PASSED] - Object '' is present
+
+2019-07-21 11:59:53 - [MESSAGE][PASSED] - Text of object '' is: 'Describe the circumstances limiting the project team's ability to provide the submittals required in this form. Be sure to reference what additional documentation has been provided, if any. Non-standard documentation will be considered upon its merits. (Optional)JFSST'
+
+2019-07-21 11:59:54 - [MESSAGE][FAILED] - These following reason:
+ [Cannot invoke method log() on null object]
+
+2019-07-21 11:59:54 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)
+)
+
+2019-07-21 11:59:54 - [MESSAGE][FAILED] - runWithCucumberRunner(testRunner.MinimumIndoorAirQualityTestRunner) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-21 11:51:56 - [TEST_CASE][FAILED] - Test Cases/TC_MinimumIndoorAirQuality: Test Cases/TC_MinimumIndoorAirQuality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-21 11:51:54 - [TEST_SUITE][FAILED] - TS_LEEDOnline: Test Cases/TC_MinimumIndoorAirQuality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-21 11:51:54 - [TEST_SUITE][FAILED] - TS_LEEDOnline: Test Cases/TC_MinimumIndoorAirQuality FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Cannot invoke method log() on null object]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_MinimumIndoorAirQuality.run(TC_MinimumIndoorAirQuality:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1563690101024.run(TempTestSuite1563690101024.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
