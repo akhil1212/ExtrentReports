@@ -89,7 +89,8 @@ class NewTestListener {
 		println"***************************"+ TestReport
 		// commonE.extent=new ExtentReports (System.getProperty("user.dir") +'\\ExtentReports\\testreport1.html', true);
 		
-		 commonReport.extent=new ExtentReports (System.getProperty("user.dir") +'\\ExtentReports\\'+TestReport+'.html', true)
+		 commonReport.extent="/var/lib/jenkins/workspace/ExtentReportCheck/LEEDAutosave/ExtentReports"
+		 //new ExtentReports (System.getProperty("user.dir") +'\\ExtentReports\\'+TestReport+'.html', true)
 		
 		
 	}
